@@ -1,2 +1,2 @@
 # PythonParaTodos
-Repositórido do Curso Python para Todos
+Repositório do Curso Python para Todos
