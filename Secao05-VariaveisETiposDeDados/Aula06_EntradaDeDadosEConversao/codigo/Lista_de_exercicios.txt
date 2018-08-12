@@ -1,0 +1,18 @@
+01) Crie um programa que solicite o nome completo do usuário e imprima "Obrigado por responder à pergunta fulano", onde "fulano" é o nome informado pelo usuário.
+
+02) Crie um programa que pergunte ao usuário qual bebida ele prefere tendo as opções 1) Água, 2) Cerveja, 3) Vinho e 4) Leite. Desta forma:
+Qual bebida você prefere?
+ 1) Água
+ 2) Cerveja
+ 3) Vinho
+ 4) Leite
+ Informe o número: 
+
+Imprima a opção informada pelo usuário desta forma: "Você escolheu a opção x", onde "x" é o número da opção informada.
+
+03) Crie um programa que solicite o ano de nascimento do usuário (com 4 dígitos) e calcule sua idade (tem que converter o ano para inteiro antes de calcular). Imprima a frase: "Você tem X anos.", onde "X" é a idade calculada.
+
+04) Crie um programa que solicite ao usuário que informe o valor do salário mínimo (converta para float) e armazene em uma variável chamada salario_minimo, em seguida solicite ao usuário quantos salários ele gostaria de ganhar (converta para float) e armazene em uma variável chamada pretensao. Imprima o valor do salário desejado pelo usuário desta forma:
+"Você pretende ganhar R$ x", onde x é o valor do salário multiplicado pela quantidade de salários pretendidos.
+
+05) Crie um programa que solicite ao usuário que informe o valor de seu salário, o valor do salário mínimo e sua idade. Compare se o valor do salário é maior que dois salários mínimos E se a idade informada é maior que 18 usando operadores lógicos e relacionais. Imprima no final: "O resultado foi X", sendo que X será "True" ou "False".
