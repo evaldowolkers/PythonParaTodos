@@ -1,0 +1,19 @@
+1) Crie um programa que possua duas variáveis denominadas nome e sobrenome.
+Solicite que o usuário informe o nome e depois solicite que informe o sobrenome e grave nas variáveis separadamente.
+Crie uma variável denominada nome_completo e grave o nome e sobrenome concatenados.
+No final do programa imprima a frase:
+Seu nome completo é: NOME SOBRENOME
+Onde NOME e SOBRENOME é o conteúdo da variável nome_completo.
+
+2) Crie um programa que solicite uma palavra ao usuário e armazene
+esta palavra em uma variável denominada 'palavra'.
+Em seguida imprima o conteúdo da variável 20 vezes usando a multiplicação de strings.
+Lembre-se de colocar um espaço para não imprimir as palavras "coladas".
+
+3) Crie um programa que solicite os seguintes dados ao usuário:
+Informe o nome do produto:
+Informe o preço do produto:
+Informe a quantidade de produtos:
+Ao final, usando composição de strings (%) imprima:
+O produto NOME custa VALOR, você comprou QUANTIDADE e vai pagar TOTAL.
+Lembre-se de formatar os floats com duas decimais.
