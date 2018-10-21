@@ -7,7 +7,7 @@ def enviar_email():
     mensagem = "Subject: Teste\n\nTeste de envio de e-mail" # Mensagem a ser enviada
 
     try:
-        with smtp.SMTP('mail.topcard.com.br', 587) as s:
+        with smtp.SMTP('smtp.provedor.com.br', 587) as s:
             s.login(de, senha) # Efetuando login com o usuário e senha
             s.sendmail(de, para, mensagem) # Enviando e-mail
             s.close() # Fechando a conexão
