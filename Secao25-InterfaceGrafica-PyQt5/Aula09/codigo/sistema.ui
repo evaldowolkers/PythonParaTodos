@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>671</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Cadastro">
+    <property name="title">
+     <string>&amp;Cadastro</string>
+    </property>
+    <addaction name="action_Cliente"/>
+    <addaction name="action_Fornecedor"/>
+    <addaction name="action_Produto"/>
+   </widget>
+   <widget class="QMenu" name="menu_Opera_es">
+    <property name="title">
+     <string>&amp;Operações</string>
+    </property>
+    <addaction name="action_Entrada"/>
+    <addaction name="action_Sa_da"/>
+   </widget>
+   <widget class="QMenu" name="menu_Ajuda">
+    <property name="title">
+     <string>&amp;Ajuda</string>
+    </property>
+    <addaction name="action_Sobre"/>
+   </widget>
+   <addaction name="menu_Cadastro"/>
+   <addaction name="menu_Opera_es"/>
+   <addaction name="menu_Ajuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Cliente">
+   <property name="text">
+    <string>&amp;Cliente</string>
+   </property>
+  </action>
+  <action name="action_Fornecedor">
+   <property name="text">
+    <string>&amp;Fornecedor</string>
+   </property>
+  </action>
+  <action name="action_Produto">
+   <property name="text">
+    <string>&amp;Produto</string>
+   </property>
+  </action>
+  <action name="action_Entrada">
+   <property name="text">
+    <string>&amp;Entrada de Produtos</string>
+   </property>
+  </action>
+  <action name="action_Sa_da">
+   <property name="text">
+    <string>&amp;Saída de Produtos</string>
+   </property>
+  </action>
+  <action name="action_Sobre">
+   <property name="text">
+    <string>&amp;Sobre</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

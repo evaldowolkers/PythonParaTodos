@@ -1,0 +1,7 @@
+CREATE TABLE `cadastro`.`fornecedores` (
+  `idfornecedores` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(100) NULL,
+  `telefone` VARCHAR(14) NULL,
+  `celular` VARCHAR(14) NULL,
+  `endereco` VARCHAR(200) NULL,
+  PRIMARY KEY (`idfornecedores`));
