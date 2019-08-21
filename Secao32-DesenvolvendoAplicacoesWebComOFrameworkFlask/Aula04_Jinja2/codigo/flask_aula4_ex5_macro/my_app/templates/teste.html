@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% from '_campos.html' import criar_campos_login %}
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <fieldset>
+        Nome: {{ criar_campos_login('usuario') }}<br><br>
+        Senha: {{ criar_campos_login('senha', type='password') }}
+    </fieldset>
+</body>
+</html>

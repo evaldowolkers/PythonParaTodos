@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Exemplo Moment.js</title>
+  </head>
+
+  <body>
+    <h1>Quanto tempo passou: <span id="data" data-informada="1978-09-26 00:00:00 UTC"></span></h1>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="static/js/moment.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var data = $('#data'),
+            date = moment(new Date(data.attr('data-informada')));
+            update = function(){
+                       data.html(date.fromNow());
+                     };
+        update();
+      });
+    </script>
+  </body>
+
+</html>

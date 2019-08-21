@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block container %}
+    <div class="top-pad">
+        {% for id, produto in produtos.items() %}
+            <div class="well">
+                <h2>
+                    <a href="{{ url_for('produto.produto', key=id) }}">{{ produto['descricao'] }}</a>
+                    <small>R$ {{ produto['valor'] }}</small>
+                </h2>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

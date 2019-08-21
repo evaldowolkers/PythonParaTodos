@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+{% block container %}
+    <div class="top-pad">
+        <h4>{{ produto|nome_completo }}</h4>
+        <h1>{{ produto['descricao'] }}
+            <small>{{ produto['categoria'] }}</small>
+        </h1>
+        <h3>{{ produto['valor']|formato_moeda }}</h3>
+    </div>
+{% endblock %}
