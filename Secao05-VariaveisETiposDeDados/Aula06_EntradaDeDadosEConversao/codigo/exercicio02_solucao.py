@@ -12,5 +12,6 @@ Qual bebida você prefere?
 Imprima a opção informada pelo usuário desta forma:
 "Você escolheu a opção x", onde "x" é o número da opção informada.
 """
-bebida = input("Qual bebida você prefere?\n 1) Água\n 2) Cerveja\n 3) Vinho\n 4) Leite\n Informe o número: ")
+bebida = input("Qual bebida você prefere?\n 1) Água\n 2) "
+               "Cerveja\n 3) Vinho\n 4) Leite\n Informe o número: ")
 print("Você escolheu a opção", bebida)
