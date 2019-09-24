@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Resultado (session): {{session.get('valor_final')}}</h1>
+  <h1>Resultado (variável): {{ valor_final }}</h1>
+
+  <a href="{{ url_for('index') }}">Voltar</a>
+{% endblock %}
