@@ -1,0 +1,3 @@
+insert into cadastro.clientes (nome, telefone, celular, endereco) values ('Joaquim', '(99)9999-99999', '(88)8888-88888', 'Rua AB, 50, Vitória, ES');
+insert into cadastro.clientes (nome, telefone, celular, endereco) values ('Mariazinha', '(77)7777-77777', '(66)6666-66666', 'Rua CD, 125, Viana, ES');
+insert into cadastro.clientes (nome, telefone, celular, endereco) values ('José', '(55)5555-55555', '(44)4444-44444', 'Rua EF, 17, Cariacica, ES');
