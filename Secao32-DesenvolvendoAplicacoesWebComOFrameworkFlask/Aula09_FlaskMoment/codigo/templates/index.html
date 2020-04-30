@@ -1,0 +1,32 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}Título{% endblock %}
+
+{% block navbar %}
+
+{% block scripts %}
+{{ super() }}
+{{ moment.include_moment() }}
+{% endblock %}
+
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Principal</a></li>
+                <li><a href="/exemplo">Exemplo</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Esta é a página principal</h1>
+        Data: {{ moment(current_time).format('LLL') }}<br>
+        Tempo decorrido: {{ moment(current_time).fromNow(refresh=True) }}
+    </div>
+</div>
+{% endblock %}
