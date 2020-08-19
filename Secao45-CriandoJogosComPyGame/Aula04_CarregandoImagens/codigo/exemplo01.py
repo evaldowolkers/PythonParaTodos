@@ -33,7 +33,7 @@ while running:
     # pygame.png
     imagem = pygame.image.load("pygame.png")
     # Desenha a imagem na tela
-    # blit(objeto_imagem, uma_lista_com_largura_altura)
+    # blit(objeto_imagem, uma_lista_com_posicao_x_y)
     screen.blit(imagem, [100, 50])
     pygame.display.flip()
 
